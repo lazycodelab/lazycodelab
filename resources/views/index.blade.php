@@ -987,7 +987,6 @@
 									<li><a href="#">News</a></li>
 									<li><a href="#">Impact</a></li>
 									<li><a href="#">Our team</a></li>
-									<li><a href="#">Our interns</a></li>
 								</ul>
 							</div>
 							<!-- Column -->
