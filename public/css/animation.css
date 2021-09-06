@@ -1,0 +1,767 @@
+.empty-animation{
+    animation-name: zoomInStable; 
+    animation-duration: 3s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  
+  -webkit-animation-name: zoomInStable; 
+    -webkit-animation-duration: 3s; 
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+  
+  -moz-animation-name: zoomInStable; 
+    -moz-animation-duration: 3s; 
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+  
+  -ms-animation-name: zoomInStable; 
+    -ms-animation-duration: 3s; 
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: linear;
+  
+  -o-animation-name: zoomInStable; 
+    -o-animation-duration: 3s; 
+    -o-animation-iteration-count: 1;
+    -o-animation-timing-function: linear;
+}
+
+.empty-animation{
+    animation-name: zoomInStable; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+  -webkit-animation-name: zoomInStable; 
+    -webkit-animation-duration: 3s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  
+  -moz-animation-name: zoomInStable; 
+    -moz-animation-duration: 3s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+  
+  -ms-animation-name: zoomInStable; 
+    -ms-animation-duration: 3s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+  
+  -o-animation-name: zoomInStable; 
+    -o-animation-duration: 3s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+.empty-animation{
+    animation-name: slideInUp; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  
+  -webkit-animation-name: slideInUp; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+  
+  -moz-animation-name: slideInUp; 
+    -moz-animation-duration: 2s; 
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+  
+  -ms-animation-name: slideInUp; 
+    -ms-animation-duration: 2s; 
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: linear;
+  
+}
+
+.empty-animation{
+    animation-name: slideInRight; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  
+  -webkit-animation-name: slideInRight; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+  
+  -moz-animation-name: slideInRight; 
+    -moz-animation-duration: 2s; 
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+  
+  -ms-animation-name: slideInRight; 
+    -ms-animation-duration: 2s; 
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: linear;
+  
+}
+
+.empty-animation{
+    animation-name: slideInLeft; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  
+  -webkit-animation-name: slideInLeft; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+  
+  -moz-animation-name: slideInLeft; 
+    -moz-animation-duration: 2s; 
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+  
+  -ms-animation-name: slideInLeft; 
+    -ms-animation-duration: 2s; 
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: linear;
+  
+}
+
+.empty-animation{
+    animation-name: slideInUp; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  
+  -webkit-animation-name: slideInUp; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+  
+  -moz-animation-name: slideInUp; 
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: linear;
+  
+  -ms-animation-name: slideInUp; 
+    -ms-animation-duration: 2s; 
+    -ms-animation-iteration-count: 1;
+    -ms-animation-timing-function: linear;
+  
+}
+
+@-webkit-keyframes rotateme {
+    0% {
+        -webkit-transform: rotate(0deg);
+        opacity: 1;
+      }
+
+    50% {
+        -webkit-transform: rotate(180deg);
+        opacity: 0.7;
+      }
+    100% {
+        -webkit-transform: rotate(360deg);
+        opacity: 1;
+      }
+}
+@-moz-keyframes rotateme {
+    0% {
+        -moz-transform: rotate(0deg);
+        opacity: 1;
+      }
+
+    50% {
+        -moz-transform: rotate(180deg);
+        opacity: 0.7;
+      }
+    100% {
+        -moz-transform: rotate(360deg);
+        opacity: 1;
+      }
+}
+@-o-keyframes rotateme {
+    0% {
+        -o-transform: rotate(0deg);
+        opacity: 1;
+      }
+
+    50% {
+        -o-transform: rotate(180deg);
+        opacity: 0.7;
+      }
+    100% {
+        -o-transform: rotate(360deg);
+        opacity: 1;
+      }
+}
+
+@keyframes rotateme {
+    
+     0% {
+        transform: rotate(0deg);
+        opacity: 1;
+      }
+
+    50% {
+        transform: rotate(180deg);
+      }
+    100% {
+        transform: rotate(360deg);
+        opacity: 1;
+      }
+}
+
+.news-section .icon-layer-two,
+.news-section .icon-layer-three,
+.main-footer .pattern-layer-two,
+.main-footer .pattern-layer-four,
+.user-profile-section .pattern-layer-one,
+.user-profile-section .pattern-layer-two,
+.user-profile-section .pattern-layer-three,
+.blog-page-section .pattern-layer-two,
+.blog-page-section .pattern-layer-one,
+.contact-banner-section .pattern-layer-two,
+.banner-section-four .icon-layer-two,
+.connection-section .icon-layer-one,
+.connection-section .icon-layer-three,
+.contact-banner-section .pattern-layer-three,
+.banner-section-three .image-column .icon-layer-five,
+.banner-section-two .content-column .icon-layer-two,
+.banner-section .image-column .pattern-layer-two{
+    animation-name: rotateme; 
+    animation-duration: 15s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	
+	-webkit-animation-name: rotateme; 
+    -webkit-animation-duration: 15s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+	-moz-animation-name: rotateme; 
+    -moz-animation-duration: 15s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+	
+	-ms-animation-name: rotateme; 
+    -ms-animation-duration: 15s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+	
+	-o-animation-name: rotateme; 
+    -o-animation-duration: 15s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+/* Bob Up Down*/
+@-webkit-keyframes float_up_down {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  50% {
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes float_up_down {
+  0% {
+    transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(30px);
+    transform: translateY(30px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.banner-section .pattern-layer-eight,
+.banner-section-two .pattern-layer-two,
+.banner-section-three .pattern-layer-two,
+.banner-section-four .icon-layer-four,
+.banner-section-four .icon-layer-three,
+.footer-style-two .pattern-layer-seven,
+.banner-section .image-column .pattern-layer-five,
+.feature-section .image-column .feature-icon{
+    animation-name: float_up_down; 
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    -webkit-animation-name: float_up_down; 
+    -webkit-animation-duration: 5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: float_up_down; 
+    -moz-animation-duration: 5s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    -ms-animation-name: float_up_down; 
+    -ms-animation-duration: 5s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    -o-animation-name: float_left_right; 
+    -o-animation-duration: 5s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+/* Bob */
+@-webkit-keyframes float_left_right {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+
+  50% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    opacity: 0.40;
+  }
+
+  100% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+}
+
+@keyframes float_left_right {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+
+  50% {
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    opacity: 0.40;
+  }
+
+  100% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    opacity: 1;
+  }
+}
+
+.page-title-section .icon-layer-five,
+.page-title-section .icon-layer-four,
+.banner-section-two .content-column .icon-layer-one,
+.professional-section .images-column .inner-column .pattern-layer,
+.benefit-section .images-column .inner-column .pattern-layer{
+    animation-name: float_left_right; 
+    animation-duration: 30s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+  -webkit-animation-name: float_left_right; 
+    -webkit-animation-duration: 30s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  
+  -moz-animation-name: float_left_right; 
+    -moz-animation-duration: 30s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+  
+  -ms-animation-name: float_left_right; 
+    -ms-animation-duration: 30s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+  
+  -o-animation-name: float_left_right; 
+    -o-animation-duration: 30s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+@-webkit-keyframes float_left_right_two {
+  0% {
+    -webkit-transform: translateX(-30px);
+    opacity: 1;
+  }
+
+  50% {
+    -webkit-transform: translateX(0px);
+    opacity: 0.80;
+  }
+
+  100% {
+    -webkit-transform: translateX(-30px);
+    opacity: 1;
+  }
+}
+
+@keyframes float_left_right_two {
+  0% {
+    transform: translateX(-30px);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(0px);
+    opacity: 0.80;
+  }
+
+  100% {
+    transform: translateX(-30px);
+    opacity: 1;
+  }
+}
+
+.blog-detail-banner-section .pattern-layer-four,
+.banner-section .image-column .pattern-layer-three,
+.banner-section-two .content-column .icon-layer-three,
+.professional-section .images-column .inner-column .pattern-layer-two,
+.benefit-section .images-column .inner-column .pattern-layer-two{
+    animation-name: float_left_right_two; 
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  
+  -webkit-animation-name: float_left_right_two; 
+    -webkit-animation-duration: 5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+  
+  -moz-animation-name: float_left_right_two; 
+    -moz-animation-duration: 5s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+  
+  -ms-animation-name: float_left_right_two; 
+    -ms-animation-duration: 5s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+  
+  -o-animation-name: float_left_right_two; 
+    -o-animation-duration: 5s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+
+@-webkit-keyframes zoom-fade {
+  0% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+@keyframes zoom-fade {
+  0% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+.banner-section-four .icon-layer-six,
+.banner-section .image-column .pattern-layer-one,
+.blog-detail-banner-section .pattern-layer-three,
+.news-section .icon-layer-one{
+    animation-name: zoom-fade; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	
+	-webkit-animation-name: zoom-fade; 
+    -webkit-animation-duration: 3s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+	-moz-animation-name: zoom-fade; 
+    -moz-animation-duration: 3s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+	
+	-ms-animation-name: zoom-fade; 
+    -ms-animation-duration: 3s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+	
+	-o-animation-name: zoom-fade; 
+    -o-animation-duration: 3s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+
+
+
+
+
+@keyframes rotateme {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotateme {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotateme {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to { 
+        -moz-transform: rotate(360deg);
+    }
+}
+@-o-keyframes rotateme {
+    from {
+        -o-transform: rotate(0deg);
+    }
+    to { 
+        -o-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+
+.banner-section-two .content-column .icon-layer-four,
+.banner-section .image-column .pattern-layer-four,
+.banner-section-three .content-column .icon-layer-two,
+.banner-section-three .image-column .icon-layer-four,
+.banner-section-three .image-column .icon-layer-three,
+.banner-section-three .content-column .icon-layer,
+.page-title-section .icon-layer-two,
+.page-title-section .icon-layer-one,
+.page-title-section .icon-layer-three,
+.blog-page-section .pattern-layer-three,
+.blog-detail-banner-section .pattern-layer-two,
+.blog-detail-banner-section .pattern-layer-one,
+.contact-page-section .form-column .pattern-layer-one,
+.contact-page-section .form-column .pattern-layer-two,
+.banner-section-two .content-column .icon-layer-five,
+.contact-banner-section .pattern-layer-one,
+.testimonial-section-three .icon-layer-two,
+.testimonial-section-three .icon-layer-four,
+.trial-section .icon-layer-two,
+.case-study-section .icon-layer-five,
+.case-study-section .icon-layer-four,
+.news-section-two .icon-layer-one,
+.goal-section .content-column .inner-column .pattern-layer-three{
+    animation-name: rotateme; 
+    animation-duration: 24s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	
+	-webkit-animation-name: rotateme; 
+    -webkit-animation-duration: 24s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+	-moz-animation-name: rotateme; 
+    -moz-animation-duration: 24s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+	
+	-ms-animation-name: rotateme; 
+    -ms-animation-duration: 24s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+	
+	-o-animation-name: rotateme; 
+    -o-animation-duration: 24s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+
+@-webkit-keyframes float-bob {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+
+  50% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+}
+
+@keyframes float-bob {
+  0% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+
+  50% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+}
+
+.banner-section .pattern-layer-seven,
+.connection-section .icon-layer-two,
+.case-study-section .icon-layer-one,
+.testimonial-section-three .icon-layer-one,
+.footer-style-two .pattern-layer-six,
+.banner-section-three .content-column .pattern-layer-one,
+.banner-section-two .content-column .pattern-layer-one,
+.goal-section .images-column .pattern-layer{
+    animation-name: float-bob; 
+    animation-duration: 7s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	
+	-webkit-animation-name: float-bob; 
+    -webkit-animation-duration: 7s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+	-moz-animation-name: float-bob; 
+    -moz-animation-duration: 7s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+	
+	-ms-animation-name: float-bob; 
+    -ms-animation-duration: 7s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+	
+	-o-animation-name: float-bob; 
+    -o-animation-duration: 7s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+
+/*** 
+=============================================
+    Zoom Fade Css
+=============================================
+***/
+
+.banner-section .pattern-layer-six,
+.case-study-section .icon-layer-six,
+.banner-section-two .pattern-layer-three,
+.footer-style-two .pattern-layer-four,
+.contact-section .info-column .icon-layer,
+.testimonial-section-three .icon-layer-three,
+.connection-section .icon-layer-five{
+    animation-name: zoom-fade; 
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	
+	-webkit-animation-name: zoom-fade; 
+    -webkit-animation-duration: 5s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+	
+	-moz-animation-name: zoom-fade; 
+    -moz-animation-duration: 5s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+	
+	-ms-animation-name: zoom-fade; 
+    -ms-animation-duration: 5s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+	
+	-o-animation-name: zoom-fade; 
+    -o-animation-duration: 5s; 
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
+}
+@-webkit-keyframes zoom-fade {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes zoom-fade {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
