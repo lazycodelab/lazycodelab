@@ -16,7 +16,6 @@ jobs:
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
      
           script: |
-            mkdir test 
-            cd test 
-            git clone git@github.com:lazycodelab/lazycodelab.git 
+            cd /var/www/laravel 
+            git clone lazycodelab@github.com:lazycodelab/lazycodelab.git 
             echo 'Successfully deployed to DigitalOcean' 
