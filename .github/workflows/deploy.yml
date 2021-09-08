@@ -7,7 +7,7 @@ jobs:
 	deploy:
 		runs-on: ubuntu-latest
 			steps:
-	  			- name: Deploy LazyCodeLab website
+				- name: Deploy LazyCodeLab website
 				uses: appleboy/ssh-action@v0.1.2
 				with:
 					host: ${{secrets.SSH_HOST}} # IP address of the server you wish to ssh into
@@ -15,8 +15,8 @@ jobs:
 					username: ${{ secrets.SSH_USERNAME }} # User of the server you want to ssh into
 					passphrase: ${{ secrets.SSH_PASSPHRASE }}
 				script: |
-				cd /var/www
-				git clone lazycodelab:lazycodelab/lazycodelab.git __temp
-				mv temp/.git lazycodelab/.git
-				rm -rf __temp
-				echo 'Successfully deployed to DigitalOcean'
+					cd /var/www
+					git clone lazycodelab:lazycodelab/lazycodelab.git __temp
+					mv temp/.git lazycodelab/.git
+					rm -rf __temp
+					echo 'Successfully deployed to DigitalOcean'
