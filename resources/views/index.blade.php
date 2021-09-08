@@ -37,11 +37,7 @@
 						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 							<ul class="navigation clearfix">
 								<li class="current dropdown"><a href="#"><span data-hover="Home">Home</span></a></li>
-								<li class="dropdown"><a href="#">About</a>
-									<ul>
-										<li><a href="faq">Faq</a></li>
-									</ul>
-								</li>
+								<li class="dropdown"><a href="#">About</a></li>
 								<li><a href="#">Blog</a></li>
 								<li><a href="#">Contact</a></li>
 							</ul>
