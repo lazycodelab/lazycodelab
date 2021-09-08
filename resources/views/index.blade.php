@@ -36,48 +36,14 @@
 
 						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 							<ul class="navigation clearfix">
-								<li class="current dropdown"><a href="#"><span data-hover="Home">Home</span></a>
-									<ul>
-										<li><a href="index">Home page 01</a></li>
-										<li><a href="index-2">Home page 02</a></li>
-										<li><a href="index-3">Home page 03 <span class="new-page">New</span></a></li>
-										<li class="dropdown"><a href="#">Header styles</a>
-											<ul>
-												<li><a href="index">Header Style 01</a></li>
-												<li><a href="index-2">Header Style 02</a></li>
-												<li><a href="index-3">Header Style 03 <span class="new-page">New</span></a></a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
+								<li class="current dropdown"><a href="#"><span data-hover="Home">Home</span></a></li>
 								<li class="dropdown"><a href="#">About</a>
 									<ul>
-										<li><a href="about">About Us</a></li>
 										<li><a href="faq">Faq</a></li>
-										<li><a href="teacher">Teacher</a></li>
-										<li><a href="profile">User Profile</a></li>
-										<li><a href="membership">Membership</a></li>
 									</ul>
 								</li>
-								<li class="dropdown"><a href="#">Courses</a>
-									<ul>
-										<li><a href="course">Courses</a></li>
-										<li><a href="course-2">Courses 02</a></li>
-										<li><a href="course-3">Courses 03</a></li>
-										<li><a href="course-4">Courses 04</a></li>
-										<li><a href="course-detail">Courses Detail</a></li>
-									</ul>
-								</li>
-								<li class="dropdown"><a href="#">Blog</a>
-									<ul>
-										<li><a href="blog">Our Blog</a></li>
-										<li><a href="blog-list">Blog List</a></li>
-										<li><a href="blog-detail">Blog Detail</a></li>
-										<li><a href="not-found">Not Found</a></li>
-									</ul>
-								</li>
+								<li><a href="#">Blog</a></li>
 								<li><a href="#">Contact</a></li>
-								<li><a href="#">Donation</a></li>
 							</ul>
 						</div>
 					</nav>
