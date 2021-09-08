@@ -788,7 +788,7 @@
 
 						<!-- Default Form -->
 						<div class="default-form">
-							<form method="post" action="http://themazine.com/html/Lebari/contact">
+							<form method="post" action="#">
 								<div class="row clearfix">
 
 									<!-- Form Group -->
@@ -866,7 +866,7 @@
 								</div>
 								<!-- Newsletter Form -->
 								<div class="newsletter-form-two">
-									<form method="post" action="http://themazine.com/html/Lebari/contact">
+									<form method="post" action="#">
 										<div class="form-group">
 											<span class="icon fa fa-envelope-o"></span>
 											<input type="email" name="email" value="" placeholder="Enter your email address" required>
