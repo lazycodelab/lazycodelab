@@ -1,27 +1,8 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-<meta charset="utf-8">
-<title>LazyCodeLab</title>
-<!-- Stylesheets -->
-<link href="{{ asset( 'css/bootstrap.css' ) }}" rel="stylesheet">
-<link href="{{ asset( 'css/style.css' ) }}" rel="stylesheet">
-<link href="{{ asset( 'css/responsive.css' ) }}" rel="stylesheet">
+@extends('layouts.app')
 
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+@section('title', 'Home')
 
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
-
-<!-- Responsive -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
-<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-</head>
-
-<body class="hidden-bar-wrapper">
+@section('content')
 
 <div class="page-wrapper">
 
@@ -55,48 +36,10 @@
 
 						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 							<ul class="navigation clearfix">
-								<li class="current dropdown"><a href="#"><span data-hover="Home">Home</span></a>
-									<ul>
-										<li><a href="index">Home page 01</a></li>
-										<li><a href="index-2">Home page 02</a></li>
-										<li><a href="index-3">Home page 03 <span class="new-page">New</span></a></li>
-										<li class="dropdown"><a href="#">Header styles</a>
-											<ul>
-												<li><a href="index">Header Style 01</a></li>
-												<li><a href="index-2">Header Style 02</a></li>
-												<li><a href="index-3">Header Style 03 <span class="new-page">New</span></a></a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li class="dropdown"><a href="#">About</a>
-									<ul>
-										<li><a href="about">About Us</a></li>
-										<li><a href="faq">Faq</a></li>
-										<li><a href="teacher">Teacher</a></li>
-										<li><a href="profile">User Profile</a></li>
-										<li><a href="membership">Membership</a></li>
-									</ul>
-								</li>
-								<li class="dropdown"><a href="#">Courses</a>
-									<ul>
-										<li><a href="course">Courses</a></li>
-										<li><a href="course-2">Courses 02</a></li>
-										<li><a href="course-3">Courses 03</a></li>
-										<li><a href="course-4">Courses 04</a></li>
-										<li><a href="course-detail">Courses Detail</a></li>
-									</ul>
-								</li>
-								<li class="dropdown"><a href="#">Blog</a>
-									<ul>
-										<li><a href="blog">Our Blog</a></li>
-										<li><a href="blog-list">Blog List</a></li>
-										<li><a href="blog-detail">Blog Detail</a></li>
-										<li><a href="not-found">Not Found</a></li>
-									</ul>
-								</li>
+								<li class="current dropdown"><a href="#"><span data-hover="Home">Home</span></a></li>
+								<li class="dropdown"><a href="#">About</a></li>
+								<li><a href="#">Blog</a></li>
 								<li><a href="#">Contact</a></li>
-								<li><a href="#">Donation</a></li>
 							</ul>
 						</div>
 					</nav>
@@ -841,7 +784,7 @@
 
 						<!-- Default Form -->
 						<div class="default-form">
-							<form method="post" action="http://themazine.com/html/Lebari/contact">
+							<form method="post" action="#">
 								<div class="row clearfix">
 
 									<!-- Form Group -->
@@ -919,7 +862,7 @@
 								</div>
 								<!-- Newsletter Form -->
 								<div class="newsletter-form-two">
-									<form method="post" action="http://themazine.com/html/Lebari/contact">
+									<form method="post" action="#">
 										<div class="form-group">
 											<span class="icon fa fa-envelope-o"></span>
 											<input type="email" name="email" value="" placeholder="Enter your email address" required>
@@ -987,7 +930,6 @@
 									<li><a href="#">News</a></li>
 									<li><a href="#">Impact</a></li>
 									<li><a href="#">Our team</a></li>
-									<li><a href="#">Our interns</a></li>
 								</ul>
 							</div>
 							<!-- Column -->
@@ -1029,24 +971,4 @@
 </div>
 <!--End pagewrapper-->
 
-<!--Scroll to top-->
-<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
-
-<script src="js/jquery.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/parallax.min.js"></script>
-<script src="js/tilt.jquery.min.js"></script>
-<script src="js/jquery.paroller.min.js"></script>
-<script src="js/owl.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/nav-tool.js"></script>
-<script src="js/jquery-ui.js"></script>
-<script src="js/script.js"></script>
-
-</body>
-
-</html>
+@endsection

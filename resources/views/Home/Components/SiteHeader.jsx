@@ -81,7 +81,7 @@ export default function SiteHeader() {
 
 							{/* Search */ }
 							<div className="search-box">
-								<form method="post" action="http://themazine.com/html/Lebari/contact.html">
+								<form method="post" action="#">
 									<div className="form-group">
 										<input type="search" name="search-field" value="" placeholder="Online course" required />
 										<button type="submit"><span class="icon fa fa-search"></span></button>
