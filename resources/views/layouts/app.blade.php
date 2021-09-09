@@ -10,8 +10,7 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
 
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="{{ asset('images/logo.svg') }}" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,7 +32,7 @@
 
 <body class="hidden-bar-wrapper">
 
-	@yield('content')
+	<div id="lcl-app"></div>
 
 	<!--Scroll to top-->
 	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
@@ -52,6 +51,7 @@
 	<script src="js/nav-tool.js"></script>
 	<script src="js/jquery-ui.js"></script>
 	<script src="js/script.js"></script>
+	<script src="{{ asset( 'js/app.js' )}}"></script>
 </body>
 
 </html>

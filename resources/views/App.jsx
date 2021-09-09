@@ -1,5 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Home from './Home/Home'
+import AppRouter from './AppRouter'
 
-ReactDOM.render( <Home />, document.querySelector( '#lcl-app' ) )
+ReactDOM.render( <AppRouter />, document.querySelector( '#lcl-app' ) )

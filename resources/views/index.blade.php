@@ -137,44 +137,6 @@
 	</div>
 	<!-- END sidebar widget item -->
 
-	<!-- Banner Section Two -->
-	<section class="banner-section-two">
-		<div class="auto-container">
-			<div class="pattern-layer-two" style="background-image: url(images/background/pattern-15.png)"></div>
-			<div class="pattern-layer-three" style="background-image: url(images/main-slider/icon-2.png)"></div>
-			<div class="row clearfix">
-
-				<!-- Content Column -->
-				<div class="content-column col-lg-6 col-md-12 col-sm-12">
-					<div class="pattern-layer-one" style="background-image: url(images/main-slider/pattern-1.png)"></div>
-					<div class="icon-layer-one" style="background-image: url(images/main-slider/icon-2.png)"></div>
-					<div class="icon-layer-two" style="background-image: url(images/main-slider/pattern-2.png)"></div>
-					<div class="icon-layer-three" style="background-image: url(images/main-slider/icon-1.png)"></div>
-					<div class="icon-layer-four" style="background-image: url(images/icons/icon-3.png)"></div>
-					<div class="icon-layer-five" style="background-image: url(images/icons/icon-4.png)"></div>
-					<div class="inner-column">
-						<div class="title">Learn best practicies</div>
-						<h1>Be better at programming</h1>
-						<div class="btns-box">
-							<a href="about" class="theme-btn btn-style-one"><span class="txt">Learn More</span></a>
-						</div>
-					</div>
-				</div>
-
-				<!-- Image Column -->
-				<div class="image-column col-lg-6 col-md-12 col-sm-12">
-					<div class="inner-column">
-						<div class="image titlt" data-tilt data-tilt-max="4">
-							<img src="images/vector-1.svg" alt="vector-1" />
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-	<!-- End Banner Section -->
-
 	<!-- Instructor Section -->
 	<section class="instructor-section">
 		<div class="background-layer" style="background-image:url(images/background/1.png)"></div>
