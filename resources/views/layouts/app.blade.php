@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
 <meta charset="utf-8">
-<title>LazyCodeLab - @yield('title')</title>
+<title>LazyCodeLab</title>
 <!-- Stylesheets -->
 <link href="{{ asset( 'css/bootstrap.css' ) }}" rel="stylesheet">
 <link href="{{ asset( 'css/style.css' ) }}" rel="stylesheet">
