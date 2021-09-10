@@ -10,6 +10,7 @@ import Home from './home/Home'
 import About from './about/About'
 import Contact from './contact/Contact'
 import NotFound from './errors/NotFound'
+import SiteFooter from './components/SiteFooter'
 
 export default function AppRouter() {
 	return (
@@ -23,6 +24,8 @@ export default function AppRouter() {
 				<Route path="/contact" component={ Contact } />
 				<Route path="*" component={ NotFound } />
 			</Switch>
+
+			<SiteFooter />
 		</Router>
 	)
 }

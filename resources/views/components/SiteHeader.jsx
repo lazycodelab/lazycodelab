@@ -6,7 +6,7 @@ export default function SiteHeader() {
 			<div className="header-upper">
 				<div className="outer-container clearfix">
 					<div className="pull-left logo-box">
-						<div className="logo"><a href="index"><img src="images/logo.svg" alt="" title="" /></a></div>
+						<div className="logo"><a href="/"><img src="images/logo.svg" alt="" title="LazyCodeLab Logo" /></a></div>
 					</div>
 
 					<div className="nav-outer clearfix">

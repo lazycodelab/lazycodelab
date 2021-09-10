@@ -13481,3 +13481,15 @@ img{
 	font-size:20px;
 	margin-bottom:12px;
 }
+
+.video-responsive {
+	padding-bottom: 56.25%;
+	position: relative;
+  }
+
+  .video-responsive iframe {
+	left: 0;
+	top: 0;
+	width: 100%;
+	position: absolute;
+  }
