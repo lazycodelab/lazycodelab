@@ -54,7 +54,7 @@ export default function SiteFooter() {
 				<div className="footer-bottom">
 					<div className="row clearfix">
 						<div className="copyright-column col-lg-6 col-md-12 col-sm-12">
-							<div className="copyright">&copy; Copyright { new Date().getFullYear() }, All Right Reserved</div>
+							<div className="copyright">&copy; LazyCodeLab { new Date().getFullYear() }, All rights reserved.</div>
 						</div>
 						<div className="nav-column col-lg-6 col-md-12 col-sm-12">
 							<ul>

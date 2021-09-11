@@ -15,9 +15,9 @@ export default function Home() {
 			<HeroSection />
 			<YouTubeSection />
 			<LatestProductsSection />
-			<RecentBlogSection />
+			{/*<RecentBlogSection />*/}
 			<UpcomingProjectsSection />
-			<SocialMediaSection />
+			{/*<SocialMediaSection />*/}
 			<NewsLetterSignUpForm />
 		</>
 	)

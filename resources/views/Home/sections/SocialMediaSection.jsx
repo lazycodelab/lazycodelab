@@ -5,17 +5,19 @@ export default function SocialMediaSection() {
 				<div className="inner-container">
 					<div className="sec-title centered">
 						<div className="title">Lazy but Social</div>
-						<h2>Gte to know us better</h2>
-						<div className="text">Follow our socials to get updated with every single update we make. Let's get connected.</div>
+						<h2>Get to know us better</h2>
+						<div className="text">Get to know what LazyCodeLab is upto</div>
 					</div>
 					<div className="row clearfix">
-						<div className="course-block-two col-lg-4 col-md-6 col-sm-12">
-							<div className="inner-box wow fadeInLeft animated" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<div className="icon flaticon-homework"></div>
-								<h5>Facebook</h5>
-								<div className="numbers">01</div>
+						<a href="https://www.facebook.com/fbLazyCodeLab">
+							<div className="course-block-two col-lg-4 col-md-6 col-sm-12">
+								<div className="inner-box wow fadeInLeft animated" data-wow-delay="0ms" data-wow-duration="1500ms" title="We know it's very low but we aren't giving up!">
+									<div className="icon flaticon-homework"></div>
+									<h5>Facebook</h5>
+									<div className="numbers">01</div>
+								</div>
 							</div>
-						</div>
+						</a>
 
 						<div className="course-block-two col-lg-4 col-md-6 col-sm-12">
 							<div className="inner-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">

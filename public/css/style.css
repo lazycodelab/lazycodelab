@@ -4542,6 +4542,22 @@ img{
 	padding-top:120px;
 }
 
+.banner-section-two .content-column .inner-column h1 {
+    color: #0c0d24;
+    font-weight: 900;
+    line-height: 1.4em;
+    margin-bottom: 35px;
+}
+
+.banner-section-two .content-column .text {
+    position: relative;
+    color: #0c0d24;
+    font-size: 20px;
+    opacity: 0.90;
+    line-height: 1.6em;
+    margin-bottom: 40px;
+}
+
 .banner-section-two .content-column .title{
 	position:relative;
 	color:#06092d;
@@ -13493,3 +13509,18 @@ img{
 	width: 100%;
 	position: absolute;
   }
+
+.coming-soon {
+    background-color: rgb(252 225 129 / 88%);
+    cursor: wait;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+.coming-soon:before {
+	content: 'Coming Soon';
+	background-image: url('../images/blogs-coming-soon.svg');
+}

@@ -11,7 +11,7 @@ export default function LatestProductsSection() {
 							<div className="color-layer"></div>
 							<div className="color-layer-two"></div>
 							<div className="image wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-								<img src="images/resource/professional.jpg" alt="" />
+								<img src="images/latest-projects.svg" alt="Latest Projects" />
 							</div>
 						</div>
 					</div>

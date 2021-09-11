@@ -10,12 +10,12 @@ export default function HeroSection() {
 						<div className="pattern-layer-one" style={ { backgroundImage: 'url(images/main-slider/pattern-1.png)' } }></div>
 						<div className="icon-layer-one" style={ { backgroundImage: 'url(images/main-slider/icon-2.png)' } }></div>
 						<div className="icon-layer-two" style={ { backgroundImage: 'url(images/main-slider/pattern-2.png)' } }></div>
-						<div className="icon-layer-three" style={ { backgroundImage: 'url(images/main-slider/icon-1.png)' } }></div>
-						<div className="icon-layer-four" style={ { backgroundImage: 'url(images/icons/icon-3.png)' } }></div>
+						<div className="icon-layer-three" style={ { backgroundImage: 'url(images/main-slider/icon-1.png)', zIndex: -1 } }></div>
+						<div className="icon-layer-four" style={ { backgroundImage: 'url(images/icons/icon-3.png)', zIndex: -1 } }></div>
 						<div className="icon-layer-five" style={ { backgroundImage: 'url(images/icons/icon-4.png)' } }></div>
 						<div className="inner-column">
-							<div className="title">Learn best practices</div>
-							<h1>Code Clean <br /> Code Better.</h1>
+							<h1>Programming <br /> made easy.</h1>
+							<p className="text">Become a better developer no matter what programming language you use. Learn all the best resources, tips & tricks at LazyCodeLab.</p>
 							<div className="btns-box">
 								<a href="about" className="theme-btn btn-style-one"><span className="txt">Learn More</span></a>
 							</div>
@@ -25,7 +25,7 @@ export default function HeroSection() {
 					<div className="image-column col-lg-6 col-md-12 col-sm-12">
 						<div className="inner-column">
 							<div className="image titlt" data-tilt data-tilt-max="4">
-								<img src="images/vector-1.svg" alt="vector-1" />
+								<img src="images/developer-working.svg" alt="Developer Working" />
 							</div>
 						</div>
 					</div>
