@@ -21,7 +21,7 @@ export default function SiteHeader() {
 							</div>
 
 							<div className="navbar-collapse collapse clearfix" id="navbarSupportedContent">
-								<SiteMenu />
+								{/*<SiteMenu />*/}
 							</div>
 						</nav>
 					</div>

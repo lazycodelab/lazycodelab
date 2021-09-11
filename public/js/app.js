@@ -511,8 +511,7 @@ function SiteHeader() {
               })
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
               className: "navbar-collapse collapse clearfix",
-              id: "navbarSupportedContent",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_SiteMenu__WEBPACK_IMPORTED_MODULE_0__["default"], {})
+              id: "navbarSupportedContent"
             })]
           })]
         })]
