@@ -3,13 +3,17 @@
 @tailwind utilities;
 
 @layer base {
-	body {
-		@apply font-primary
+	@font-face {
+		font-family: 'Phenomena';
+		src: url('/fonts/Phenomena-ExtraBold.woff2') format('woff2'), url('/fonts/Phenomena-ExtraBold.woff') format('woff');
+		font-weight: 900;
 	}
-	h1 {
-		@apply text-2xl;
+	@font-face {
+		font-family: 'Butler';
+		src: url('/fonts/Butler-Bold.woff2') format('woff2'), url('/fonts/Butler-Bold.woff') format('woff');
 	}
-	h2 {
-		@apply text-xl;
+	@font-face {
+		font-family: 'Butler Bolder';
+		src: url('/fonts/Butler-ExtraBold.woff2') format('woff2'), url('/fonts/Butler-ExtraBold.woff') format('woff');
 	}
 }
