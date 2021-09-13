@@ -710,6 +710,18 @@ video {
 .w-1\/2 {
 	width: 50%;
 }
+.w-40 {
+	width: 10rem;
+}
+.w-96 {
+	width: 24rem;
+}
+.w-80 {
+	width: 20rem;
+}
+.w-52 {
+	width: 13rem;
+}
 .transform {
 	transform: var(--tw-transform);
 }
@@ -791,9 +803,6 @@ video {
 .font-phenomena {
 	font-family: Phenomena, serif;
 }
-.font-butler {
-	font-family: Butler, serif;
-}
 .font-butler-bolder {
 	font-family: Butler Bolder, serif;
 }
@@ -801,17 +810,13 @@ video {
 	font-size: 2.25rem;
 	line-height: 2.5rem;
 }
-.text-7xl {
-	font-size: 4.5rem;
+.text-8xl {
+	font-size: 6rem;
 	line-height: 1;
 }
 .text-base {
 	font-size: 1rem;
 	line-height: 1.5rem;
-}
-.text-8xl {
-	font-size: 6rem;
-	line-height: 1;
 }
 .font-extrabold {
 	font-weight: 800;

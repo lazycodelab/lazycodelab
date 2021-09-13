@@ -467,8 +467,12 @@ function SiteHeader() {
     className: "flex bg-gray-300 items-center",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
       href: "/",
-      className: "flex items-center ml-1 text-4xl font-phenomena bg-pink-200",
-      children: "LazyCodeLab"
+      className: "flex items-center ml-1 text-4xl font-phenomena bg-pink-200 w-52",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+        src: "images/lcl-logo.svg",
+        alt: "",
+        title: "LazyCodeLab Logo"
+      })
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_SiteMenu__WEBPACK_IMPORTED_MODULE_0__["default"], {})]
   });
 }
