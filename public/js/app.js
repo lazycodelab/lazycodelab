@@ -463,17 +463,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function SiteHeader() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("header", {
-    className: "flex bg-gray-300 items-center",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-      href: "/",
-      className: "flex items-center ml-1 text-4xl font-phenomena bg-pink-200 w-52",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-        src: "images/lcl-logo.svg",
-        alt: "",
-        title: "LazyCodeLab Logo"
-      })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_SiteMenu__WEBPACK_IMPORTED_MODULE_0__["default"], {})]
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("header", {
+    className: "bg-gray-50 drop-shadow-sm py-5 px-28",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
+      className: "mx-auto flex justify-between items-center",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+        href: "/",
+        className: "flex items-center ml-1 text-4xl font-phenomena w-52",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
+          src: "images/lcl-logo.svg",
+          alt: "",
+          title: "LazyCodeLab Logo"
+        })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_SiteMenu__WEBPACK_IMPORTED_MODULE_0__["default"], {})]
+    })
   });
 }
 
@@ -497,6 +500,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function SiteMenu() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
+    className: "mx-auto space-x-4 text-xl",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, {
       to: "/",
       children: "Home"
@@ -723,28 +727,28 @@ function HeroSection() {
         backgroundImage: 'url(images/main-slider/icon-2.png)'
       }
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "absolute w-[467px] h-[327px]",
+      className: "absolute w-[467px] h-[327px] animate-floatX",
       style: {
         backgroundImage: 'url(images/main-slider/pattern-1.png)'
       }
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "absolute w-5 h-5 top-56",
+      className: "absolute w-5 h-5 top-56 animate-floatXSlow",
       style: {
         backgroundImage: 'url(images/main-slider/icon-2.png)'
       }
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "absolute w-24 h-20",
+      className: "absolute w-24 h-20 animate-spinSlow",
       style: {
         backgroundImage: 'url(images/main-slider/pattern-2.png)'
       }
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "absolute w-[195px] h-[109px]",
+      className: "absolute w-[195px] h-[109px] animate-floatXSlow",
       style: {
         backgroundImage: 'url(images/main-slider/icon-1.png)',
         zIndex: -1
       }
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "absolute w-[91px] h-[93px]",
+      className: "absolute w-[91px] h-[93px] animate-spinSlow",
       style: {
         backgroundImage: 'url(images/icons/icon-3.png)',
         zIndex: -1
@@ -752,17 +756,17 @@ function HeroSection() {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
       className: "relative container mx-auto flex gap-x-5",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-        className: "absolute w-[105px] h-[105px] left-[256px] bottom-[-60px]",
+        className: "absolute w-[105px] h-[105px] left-[256px] bottom-[-60px] animate-spinSlow",
         style: {
           backgroundImage: 'url(images/icons/icon-4.png)'
         }
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
         className: "flex flex-col items-start justify-center gap-y-8",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
-          className: "font-butler-bolder text-8xl text-purple-500 font-extrabold xl:w-2/3",
+          className: "font-butler-bolder text-9xl text-primary",
           children: "Programming made easy."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-          className: "",
+          className: "text-xl",
           children: "Become a better developer no matter what programming language you use. Learn all the best resources, tips & tricks at LazyCodeLab."
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
           href: "#",
@@ -1242,99 +1246,70 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function YouTubeSection() {
+  // maybe use Youtube api to fetch latest videos.
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-    className: "instructor-section",
+    className: "relative",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "background-layer",
+      className: "absolute w-full h-full",
       style: {
         backgroundImage: 'url(images/background/1.png)'
       }
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "background-layer-one",
-      style: {
-        backgroundImage: 'url(images/background/pattern-1.png)'
-      }
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "background-layer-two",
-      style: {
-        backgroundImage: 'url(images/background/pattern-2.png)'
-      }
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "auto-container",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "row clearfix",
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+      className: "relative container mx-auto flex space-x-20",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: "flex space-x-5",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "blocks-column col-lg-8 col-md-12 col-sm-12",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-            className: "inner-column",
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "row clearfix",
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "service-block col-lg-6 col-md-6 col-sm-12",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "inner-box wow fadeInLeft video-responsive",
-                  "data-wow-delay": "0ms",
-                  "data-wow-duration": "1500ms",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "border-layer"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-                    width: "560",
-                    height: "315",
-                    src: "https://www.youtube.com/embed/Cj6HuupVgZU?controls=0",
-                    title: "YouTube video player",
-                    frameBorder: "0",
-                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-                    allowFullScreen: true
-                  })]
-                })
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "service-block col-lg-6 col-md-6 col-sm-12",
-                children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "inner-box wow fadeInLeft video-responsive",
-                  "data-wow-delay": "150ms",
-                  "data-wow-duration": "1500ms",
-                  children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "border-layer"
-                  }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
-                    width: "560",
-                    height: "315",
-                    src: "https://www.youtube.com/embed/rOFmgbcMCDw?controls=0",
-                    title: "YouTube video player",
-                    frameBorder: "0",
-                    allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-                    allowFullScreen: true
-                  })]
-                })
-              })]
-            })
+          className: "rotate-2 bg-gray-100 rounded-md p-4 hover:rotate-0 transition-all duration-150",
+          "data-wow-delay": "0ms",
+          "data-wow-duration": "1500ms",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+            className: "rounded-md shadow-md -rotate-2 hover:rotate-0 duration-500",
+            width: "560",
+            height: "315",
+            src: "https://www.youtube.com/embed/Cj6HuupVgZU?controls=0",
+            title: "YouTube video player",
+            frameBorder: "0",
+            allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+            allowFullScreen: true
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "instructor-column col-lg-4 col-md-12 col-sm-12",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "inner-column wow fadeInRight",
-            "data-wow-delay": "0ms",
-            "data-wow-duration": "1500ms",
-            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
-              children: "Get a dose of YouTube"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-              children: "Top quality videos available for free on YouTube for you to get started with your programming journey."
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
-              className: "click-here",
-              target: "_blank",
-              href: "https://www.youtube.com/channel/UCY94jgysTEMCSnNhoYSJy8Q?sub_confirmation=1",
-              children: "I want more"
-            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "image titlt",
-              "data-tilt": true,
-              "data-tilt-max": "4",
-              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
-                src: "images/resource/instructor.png",
-                alt: ""
-              })
-            })]
+          className: "rotate-2 bg-gray-100 rounded-md p-4 hover:rotate-0 transition-all duration-150",
+          "data-wow-delay": "150ms",
+          "data-wow-duration": "1500ms",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("iframe", {
+            className: "rounded-md shadow-md -rotate-2 hover:rotate-0 duration-500",
+            width: "560",
+            height: "315",
+            src: "https://www.youtube.com/embed/rOFmgbcMCDw?controls=0",
+            title: "YouTube video player",
+            frameBorder: "0",
+            allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+            allowFullScreen: true
           })
         })]
-      })
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: "bg-white p-5 border-2 border-dashed wow fadeInRight",
+        "data-wow-delay": "0ms",
+        "data-wow-duration": "1500ms",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
+          children: "Get a dose of YouTube"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+          children: "Top quality videos available for free on YouTube for you to get started with your programming journey."
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+          className: "rounded-sm bg-red-300 text-base text-white py-2 px-8",
+          target: "_blank",
+          href: "https://www.youtube.com/channel/UCY94jgysTEMCSnNhoYSJy8Q?sub_confirmation=1",
+          children: "I want more"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+          className: "image titlt",
+          "data-tilt": true,
+          "data-tilt-max": "4",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
+            src: "images/resource/instructor.png",
+            alt: ""
+          })
+        })]
+      })]
     })]
   });
 }
