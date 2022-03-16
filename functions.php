@@ -25,7 +25,7 @@ if ( ! function_exists( 'lcl_styles' ) ) :
 		$version_string = is_string( $theme_version ) ? $theme_version : false;
 		wp_register_style(
 			'lcl-style',
-			get_template_directory_uri() . '/assets/app.css',
+			get_template_directory_uri() . '/assets/app.css?v=' . microtime(),
 			array(),
 			$version_string
 		);
