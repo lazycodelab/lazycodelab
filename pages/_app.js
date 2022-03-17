@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
+function LCL({ Component, pageProps }) {
 	useEffect(() => {
 		document
 			.querySelector('body')
@@ -19,4 +19,4 @@ function MyApp({ Component, pageProps }) {
 	return <Component {...pageProps} />
 }
 
-export default MyApp
+export default LCL
