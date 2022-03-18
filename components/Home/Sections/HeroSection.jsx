@@ -24,7 +24,7 @@ export default () => {
 					href="#"
 					className="flex items-center justify-between rounded-xl bg-eerie-black py-3 px-5 font-heading text-lg font-semibold text-almond-white shadow-md transition-all hover:text-white hover:shadow-xl"
 				>
-					<HireIcon />
+					<HireIcon className="mr-2 h-6 w-6 fill-current" />
 					<span>Get Started</span>
 				</a>
 			</div>
