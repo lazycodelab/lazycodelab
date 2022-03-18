@@ -6,7 +6,7 @@ import WhyUsSection from '../components/Home/Sections/WhyUsSection'
 import Layout from '../components/layout'
 import { SITE_NAME } from '../lib/constants'
 
-export default () => {
+export default function Index() {
 	return (
 		<>
 			<Head>

@@ -24,7 +24,7 @@ const services = [
 	},
 ]
 
-export default () => {
+export default function ServicesSection() {
 	const Service = ({ index, title, content, ...props }) => {
 		const isEven = index % 2 == 0
 

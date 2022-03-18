@@ -1,4 +1,4 @@
-export default () => {
+export default function WhyUsSection() {
 	return (
 		<section className="container mx-auto mt-32 flex justify-center space-x-10	 text-eerie-black">
 			<div className="w-full max-w-md">
@@ -19,8 +19,9 @@ export default () => {
 						Timely Delivery
 					</h3>
 					<p>
-						It's crucial for us to deliver your product in timely
-						manner and our team takes a great care of that. Always.
+						It&apos;s crucial for us to deliver your product in
+						timely manner and our team takes a great care of that.
+						Always.
 					</p>
 				</div>
 			</div>
