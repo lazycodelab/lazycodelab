@@ -3,7 +3,7 @@ import GetStartedSection from '../components/Home/Sections/GetStartedSection'
 import HeroSection from '../components/Home/Sections/HeroSection'
 import ServicesSection from '../components/Home/Sections/ServicesSection'
 import WhyUsSection from '../components/Home/Sections/WhyUsSection'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import { SITE_NAME } from '../lib/constants'
 
 export default function Index() {

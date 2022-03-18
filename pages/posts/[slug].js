@@ -7,7 +7,7 @@ import PostHeader from '../../components/Blog/post-header'
 import SectionSeparator from '../../components/Blog/section-separator'
 import PostTitle from '../../components/Blog/post-title'
 import Tags from '../../components/Blog/tags'
-import Layout from '../../components/layout'
+import Layout from '../../components/Layout'
 import { getAllPostsWithSlug, getPostAndMorePosts } from '../../lib/api'
 import { SITE_NAME } from '../../lib/constants'
 
