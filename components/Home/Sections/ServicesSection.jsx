@@ -19,7 +19,7 @@ const services = [
 	{
 		title: 'Custom Solution',
 		content:
-			'We can provide custom-made, tailored solution for you or your business. We ensure that the website is built upto your expectations  all the latest trends in web development.',
+			'We provide custom-made solution tailored for you and your business. We ensure that the website is built upto your expectations  all the latest trends in web development.',
 		image: <ProudCode />,
 	},
 ]
@@ -34,10 +34,10 @@ export default function ServicesSection() {
 					<div className="hidden md:block">{props.image}</div>
 				)}
 				<div className="self-center">
-					<h3 className="mb-10 font-playfair text-6xl font-medium italic">
+					<h3 className="mb-5 font-playfair text-4xl font-medium italic md:mb-10 md:text-6xl">
 						{title}
 					</h3>
-					<p className="font-heading text-xl font-light tracking-wider">
+					<p className="text-md font-heading font-light tracking-wider md:text-xl">
 						{content}
 					</p>
 					{props.hasCTA && (
@@ -56,7 +56,7 @@ export default function ServicesSection() {
 
 	return (
 		<section className="relative mx-auto mt-32 grid w-full p-10 before:absolute before:inset-x-0 before:inset-y-0 before:-z-10 before:h-full before:w-full before:bg-slate-500/20">
-			<h2 className="relative mx-auto mb-32 mt-10 inline-flex justify-center font-heading text-7xl font-bold before:absolute before:-bottom-1 before:h-1 before:w-1/2 before:rounded-lg before:bg-almond-white">
+			<h2 className="relative mx-auto mb-16 inline-flex justify-center font-heading text-4xl font-bold before:absolute before:-bottom-1 before:h-1 before:w-1/2 before:rounded-lg before:bg-almond-white md:mt-10 md:mb-32 md:text-7xl">
 				Our Services
 			</h2>
 			<div className="mx-auto space-y-10">
@@ -65,7 +65,7 @@ export default function ServicesSection() {
 				))}
 			</div>
 
-			<div className="absolute -left-[300px] bottom-52 -z-10 h-[700px] w-[700px] rounded-full bg-purple-700 blur-3xl"></div>
+			{/*<div className="absolute -left-[300px] bottom-52 -z-10 h-[700px] w-[700px] rounded-full bg-purple-700 blur-3xl"></div>*/}
 		</section>
 	)
 }
