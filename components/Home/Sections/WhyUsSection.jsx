@@ -29,8 +29,8 @@ export default function WhyUsSection() {
 	)
 	return (
 		<section className="container mx-auto flex flex-wrap justify-center gap-x-10 gap-y-10 text-eerie-black md:mt-32">
-			{qualities.map((quality) => (
-				<Quality {...quality} />
+			{qualities.map((quality, idx) => (
+				<Quality key={idx} {...quality} />
 			))}
 		</section>
 	)
