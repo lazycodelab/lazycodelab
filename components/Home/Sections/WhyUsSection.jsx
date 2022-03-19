@@ -19,8 +19,8 @@ const qualities = [
 export default function WhyUsSection() {
 	const Quality = ({ title, content }) => (
 		<div className="w-full max-w-md">
-			<div className="flex h-72 flex-grow flex-col items-center justify-center rounded-md bg-almond-white px-10 text-center shadow-lg">
-				<h3 className="mb-10 font-heading text-4xl font-bold">
+			<div className="flex h-72 flex-grow flex-col items-center justify-center rounded-md bg-almond-white px-6 text-center shadow-lg md:px-10">
+				<h3 className="mb-5 font-heading text-4xl font-bold md:mb-10">
 					{title}
 				</h3>
 				<p>{content}</p>

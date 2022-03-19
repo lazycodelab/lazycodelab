@@ -15,7 +15,7 @@ export default function Index() {
 			<Layout>
 				<HeroSection />
 				<WhyUsSection />
-				{/*<div className="absolute -right-[300px] bottom-52 -z-10 h-[700px] w-[700px] rounded-full bg-purple-700 blur-3xl"></div>*/}
+				<div className="absolute -z-10 h-72 w-72 rounded-full bg-purple-700 blur-3xl md:-right-[300px] md:bottom-52 md:h-[700px] md:w-[700px]"></div>
 				<ServicesSection />
 				<GetStartedSection />
 			</Layout>

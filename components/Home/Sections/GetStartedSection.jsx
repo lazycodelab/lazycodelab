@@ -1,7 +1,7 @@
 export default function GetStartedSection() {
 	return (
 		<section className="my-16 mx-auto w-full px-10 md:m-32 md:max-w-5xl">
-			<h2 className="mb-10 text-center font-heading text-5xl font-bold md:text-7xl lg:text-6xl">
+			<h2 className="mb-10 text-center font-heading text-5xl font-bold md:text-7xl">
 				Let&apos;s Get Started
 			</h2>
 			<form className="flex flex-col items-center">

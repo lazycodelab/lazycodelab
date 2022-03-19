@@ -55,8 +55,8 @@ export default function ServicesSection() {
 	}
 
 	return (
-		<section className="relative mx-auto mt-32 grid w-full p-10 before:absolute before:inset-x-0 before:inset-y-0 before:-z-10 before:h-full before:w-full before:bg-slate-500/20">
-			<h2 className="relative mx-auto mb-16 inline-flex justify-center font-heading text-4xl font-bold before:absolute before:-bottom-1 before:h-1 before:w-1/2 before:rounded-lg before:bg-almond-white md:mt-10 md:mb-32 md:text-7xl">
+		<section className="relative mx-auto mt-16 grid w-full p-10 before:absolute before:inset-x-0 before:inset-y-0 before:-z-10 before:h-full before:w-full before:bg-slate-500/20 md:mt-32">
+			<h2 className="relative mx-auto mb-16 inline-flex justify-center font-heading text-5xl font-bold before:absolute before:-bottom-1 before:h-1 before:w-1/2 before:rounded-lg before:bg-almond-white md:mt-10 md:mb-32 md:text-7xl">
 				Our Services
 			</h2>
 			<div className="mx-auto space-y-10">
