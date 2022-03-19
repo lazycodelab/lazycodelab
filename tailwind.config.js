@@ -17,7 +17,7 @@ module.exports = {
 				'almond-white': '#EAE0D5',
 			},
 			backgroundImage: {
-				body: 'url(../public/images/bg-hexagons.svg)',
+				body: 'url(/images/bg-hexagons.svg)',
 			},
 		},
 	},
