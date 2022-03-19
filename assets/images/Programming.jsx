@@ -1,6 +1,10 @@
-export default () => {
+export default ({ className }) => {
 	return (
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 786.82 572.258">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 786.82 572.258"
+			className={className}
+		>
 			<circle cx="458.321" cy="74.182" r="26.701" fill="#f2f2f2"></circle>
 			<path
 				fill="#f2f2f2"

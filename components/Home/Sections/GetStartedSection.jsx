@@ -1,10 +1,10 @@
 export default function GetStartedSection() {
 	return (
-		<section className="container m-32 mx-auto lg:max-w-5xl">
+		<section className="m-32 mx-auto w-full px-10 md:max-w-5xl">
 			<h2 className="mb-10 text-center font-heading text-7xl font-bold lg:text-6xl">
 				Let&apos;s Get Started
 			</h2>
-			<form className="flex flex-col items-center">
+			<form className="flex flex-col flex-wrap items-center">
 				<fieldset className="flex w-full items-center justify-between space-x-5">
 					<input
 						type="email"

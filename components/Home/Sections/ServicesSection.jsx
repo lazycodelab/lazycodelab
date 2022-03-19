@@ -14,7 +14,7 @@ const services = [
 		title: 'WordPress Dev',
 		content:
 			"We're here to help you with all your WordPress needs, whether you need a custom plugin, custom theme or some assistance with your existing website.",
-		image: <Programming className="lol" />,
+		image: <Programming className="w-full" />,
 	},
 	{
 		title: 'Custom Solution',
@@ -29,10 +29,12 @@ export default function ServicesSection() {
 		const isEven = index % 2 == 0
 
 		return (
-			<div className="grid min-h-[450px] max-w-5xl grid-cols-2 gap-y-28 gap-x-5 rounded-xl bg-violet-300/20 p-10 transition-all hover:bg-violet-300/30">
-				{!isEven && <div className="">{props.image}</div>}
+			<div className="grid max-w-5xl gap-x-5 rounded-xl bg-violet-300/20 p-10 transition-all hover:bg-violet-300/30 md:min-h-[450px] md:grid-cols-2 md:gap-y-28">
+				{!isEven && (
+					<div className="hidden md:block">{props.image}</div>
+				)}
 				<div className="self-center">
-					<h3 className="text-indigo-40s0 mb-10 font-playfair text-6xl font-medium italic">
+					<h3 className="mb-10 font-playfair text-6xl font-medium italic">
 						{title}
 					</h3>
 					<p className="font-heading text-xl font-light tracking-wider">
@@ -47,7 +49,7 @@ export default function ServicesSection() {
 						</a>
 					)}
 				</div>
-				{isEven && <div className="">{props.image}</div>}
+				{isEven && <div className="hidden md:block">{props.image}</div>}
 			</div>
 		)
 	}

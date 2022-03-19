@@ -4,8 +4,8 @@ import ActiveLink from './helpers/ActiveLink'
 
 export default function Header() {
 	return (
-		<header className="border-b border-b-almond-white/10 py-5 backdrop-blur-sm">
-			<div className="container mx-auto flex items-center ">
+		<header className="border-b border-b-almond-white/10 py-3 backdrop-blur-sm md:py-5">
+			<div className="mx-auto flex w-full items-center px-10 md:container">
 				<div className="w-20 max-w-xs flex-shrink-0">
 					<ActiveLink href="/">
 						<a title="LazyCodeLab Home">
