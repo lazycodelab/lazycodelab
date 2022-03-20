@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
 import GetStartedSection from '../components/Home/Sections/GetStartedSection'
 import HeroSection from '../components/Home/Sections/HeroSection'
 import ServicesSection from '../components/Home/Sections/ServicesSection'

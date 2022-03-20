@@ -1,6 +1,9 @@
 export default function GetStartedSection() {
 	return (
-		<section className="my-16 mx-auto w-full px-10 md:m-32 md:max-w-5xl">
+		<section
+			className="my-16 w-full px-10 md:my-32 md:mx-auto md:max-w-5xl"
+			id="get-started"
+		>
 			<h2 className="mb-10 text-center font-heading text-5xl font-bold md:text-7xl">
 				Let&apos;s Get Started
 			</h2>
