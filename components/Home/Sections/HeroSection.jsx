@@ -1,10 +1,7 @@
-import { useEffect } from 'react'
 import HireIcon from '../../../assets/images/HireIcon'
 import NeuralBrainIcon from '../../../assets/images/NeuralBrainIcon'
 
 export default function HeroSection() {
-	useEffect(() => {}, [])
-
 	const scroll = (section) => {
 		const anchor = document.querySelector('#' + section)
 		anchor.scrollIntoView({
