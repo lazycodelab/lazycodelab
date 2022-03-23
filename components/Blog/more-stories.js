@@ -3,15 +3,12 @@ import PostPreview from './post-preview'
 export default function MoreStories({ posts }) {
 	return (
 		<section>
-			<h2 className="mb-8 text-6xl font-bold leading-tight tracking-tighter md:text-7xl">
-				More Stories
-			</h2>
-			<div className="mb-32 grid grid-cols-1 gap-y-20 md:grid-cols-2 md:gap-x-16 md:gap-y-32 lg:gap-x-32">
+			<div className="container relative mx-auto mb-32 grid grid-cols-1 gap-y-20 divide-y divide-almond-white/20 before:absolute before:inset-x-0 before:inset-y-0 before:-z-10 before:h-full before:w-full before:rounded-md before:bg-slate-500/20 md:mt-32 md:max-w-5xl md:gap-8 md:px-20 md:py-10 lg:gap-x-32">
 				{posts.map(({ node }) => (
 					<PostPreview
 						key={node.slug}
 						title={node.title}
-						coverImage={node.featuredImage}
+						coverImage={node.featuredImage?.node}
 						date={node.date}
 						author={node.author}
 						slug={node.slug}

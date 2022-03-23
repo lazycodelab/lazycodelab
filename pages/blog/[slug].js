@@ -25,32 +25,32 @@ export default function Post({ post, posts, preview }) {
 				<PostTitle>Loading…</PostTitle>
 			) : (
 				<>
-					<article>
-						<Head>
-							<title>
-								{post.title} | Next.js Blog Example with{' '}
-								{SITE_NAME}
-							</title>
-							<meta
-								property="og:image"
-								content={post.featuredImage?.sourceUrl}
-							/>
-						</Head>
-						<PostHeader
-							title={post.title}
-							coverImage={post.featuredImage}
-							date={post.date}
-							author={post.author}
-							categories={post.categories}
+					<Head>
+						<title>
+							{post.title} &mdash; {SITE_NAME}
+						</title>
+						<meta
+							property="og:image"
+							content={post.featuredImage?.node.sourceUrl}
 						/>
-						<PostBody content={post.content} />
-						<footer>
-							{post.tags.edges.length > 0 && (
-								<Tags tags={post.tags} />
-							)}
-						</footer>
-					</article>
-
+					</Head>
+					<section className="mx-auto mt-20 flex max-w-5xl flex-col items-center justify-center px-6 md:mt-32">
+						<article>
+							<PostHeader
+								title={post.title}
+								coverImage={post.featuredImage?.node}
+								date={post.date}
+								author={post.author}
+								categories={post.categories}
+							/>
+							<PostBody content={post.content} />
+							<footer>
+								{post.tags.edges.length > 0 && (
+									<Tags tags={post.tags} />
+								)}
+							</footer>
+						</article>
+					</section>
 					<SectionSeparator />
 					{morePosts.length > 0 && <MoreStories posts={morePosts} />}
 				</>

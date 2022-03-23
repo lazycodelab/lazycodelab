@@ -12,7 +12,7 @@ export default function PostPreview({
 	slug,
 }) {
 	return (
-		<div>
+		<div className="pt-8">
 			<div className="mb-5">
 				{coverImage && (
 					<CoverImage
@@ -22,22 +22,23 @@ export default function PostPreview({
 					/>
 				)}
 			</div>
-			<h3 className="mb-3 text-3xl leading-snug">
+			<h3 className="mb-3 font-heading text-5xl font-semibold">
 				<Link href={`/blog/${slug}`}>
 					<a
-						className="hover:underline"
+						className="hover:text-white"
 						dangerouslySetInnerHTML={{ __html: title }}
-					></a>
+					/>
 				</Link>
 			</h3>
-			<div className="mb-4 text-lg">
-				<Date dateString={date} />
+			<div className="flex items-center space-x-1">
+				<Avatar author={author} />
+				<span className="text-violet-400">&bull;</span>
+				<Date className="text-sm" dateString={date} />
 			</div>
 			<div
-				className="mb-4 text-lg leading-relaxed"
+				className="my-6 text-lg"
 				dangerouslySetInnerHTML={{ __html: excerpt }}
 			/>
-			<Avatar author={author} />
 		</div>
 	)
 }
