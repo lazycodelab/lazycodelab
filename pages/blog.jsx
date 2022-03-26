@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import MoreStories from '../components/Blog/more-stories'
-import HeroPost from '../components/Blog/hero-post'
 import Layout from '../components/Layout'
 import { getAllPostsForHome } from '../lib/api'
 import { SITE_NAME } from '../lib/constants'
+import FeaturedPost from '../components/Blog/FeaturedPosts'
 
 export default function Index({ allPosts: { edges }, preview }) {
-	const heroPost = edges[0]?.node
-	const morePosts = edges.slice(1)
+	const featuredPosts = edges.slice(0, 3)
+	const morePosts = edges.slice(3)
 
 	return (
 		<>
@@ -15,16 +15,7 @@ export default function Index({ allPosts: { edges }, preview }) {
 				<Head>
 					<title>{SITE_NAME} Blog</title>
 				</Head>
-				{heroPost && (
-					<HeroPost
-						title={heroPost.title}
-						coverImage={heroPost.featuredImage?.node}
-						date={heroPost.date}
-						author={heroPost.author}
-						slug={heroPost.slug}
-						excerpt={heroPost.excerpt}
-					/>
-				)}
+				{featuredPosts && <FeaturedPost posts={featuredPosts} />}
 				{morePosts.length > 0 && <MoreStories posts={morePosts} />}
 			</Layout>
 		</>
