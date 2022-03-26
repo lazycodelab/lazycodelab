@@ -38,18 +38,20 @@ export default function FeaturedPosts({ posts }) {
 
 				<div
 					className="mb-4 text-base leading-relaxed text-eerie-black"
-					dangerouslySetInnerHTML={{ __html: excerpt }}
+					dangerouslySetInnerHTML={{
+						__html: excerpt.substring(0, 200),
+					}}
 				/>
 			</div>
 		)
 	}
 
 	return (
-		<section className="md:max-w-8xl container mx-auto md:mt-28">
+		<section className="md:max-sw-8xl mx-auto w-full px-10 md:mt-28 lg:container">
 			<h3 className="font-playfair italic md:mb-16 md:text-6xl">
 				Featured posts
 			</h3>
-			<div className="grid grid-cols-3 gap-x-10 px-10">
+			<div className="grid gap-y-10 px-10 md:grid-cols-3 md:gap-x-10">
 				{posts.map(({ node }) => (
 					<FeaturedPostElm
 						key={node.slug}
