@@ -11,6 +11,13 @@ export default function Nav() {
 		})
 	}
 
+	const handleMobileMenu = (e) => {
+		e.preventDefault()
+		const mMenu = document.getElementById('mobile-menu')
+		mMenu?.classList.toggle('hidden')
+		mMenu?.classList.toggle('fixed')
+	}
+
 	return (
 		<>
 			<nav className="mx-auto hidden max-w-7xl flex-1 items-center justify-center space-x-10 text-center text-xl text-almond-white md:flex">
@@ -41,7 +48,16 @@ export default function Nav() {
 				</div>
 				{/*<Link href="/services">Get Started</Link>*/}
 				{/* Show mobile nav */}
+				<button className="text-white" onClick={handleMobileMenu}>
+					MO
+				</button>
 			</nav>
+			<div
+				id="mobile-menu"
+				className="inset-0 mt-24 hidden h-screen bg-pink-400"
+			>
+				testnp
+			</div>
 		</>
 	)
 }
