@@ -14,7 +14,7 @@ export default async function run(req, res) {
 		const response = await mailchimp.lists.addListMember(
 			process.env.MAILCHIMP_LIST_ID,
 			{
-				email_address: req.body.email,
+				email_address: email,
 				status: 'subscribed',
 				merge_fields: {
 					FNAME: firstName,
