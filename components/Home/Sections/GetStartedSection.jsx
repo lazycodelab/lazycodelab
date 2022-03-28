@@ -45,7 +45,7 @@ export default function GetStartedSection() {
 						name="email"
 						id="email"
 						placeholder="Email address"
-						className="w-full rounded-md p-3"
+						className="w-full rounded-md p-3 font-heading text-dark-corn-blue transition-all focus:outline-none focus:ring-2 focus:ring-almond-white focus:ring-offset-2 focus:ring-offset-dark-corn-blue"
 						required
 					/>
 					<input
@@ -53,7 +53,7 @@ export default function GetStartedSection() {
 						name="name"
 						id="name"
 						placeholder="Full name"
-						className="w-full rounded-md p-3"
+						className="w-full rounded-md p-3 font-heading text-dark-corn-blue transition-all focus:outline-none focus:ring-2 focus:ring-almond-white focus:ring-offset-2 focus:ring-offset-dark-corn-blue"
 					/>
 				</fieldset>
 
