@@ -59,9 +59,9 @@ export default function GetStartedSection() {
 
 				<button
 					type="submit"
-					className="mt-5 rounded-md bg-indigo-700 px-5 py-3 font-heading"
+					className="mt-5 flex items-center rounded-md bg-violet-600 py-4 px-10 font-heading text-base leading-none shadow-md transition-all hover:text-white"
 				>
-					Let&apos;s Do It
+					Submit
 				</button>
 				{message && (
 					<span

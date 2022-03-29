@@ -22,7 +22,7 @@ export default function PostPreview({
 					/>
 				)}
 			</div>
-			<h3 className="mb-3 font-heading text-5xl font-semibold">
+			<h3 className="mb-3 font-heading text-3xl font-semibold sm:text-4xl md:text-5xl">
 				<Link href={`/blog/${slug}`}>
 					<a
 						className="hover:text-white"
@@ -36,7 +36,7 @@ export default function PostPreview({
 				<Date className="text-sm" dateString={date} />
 			</div>
 			<div
-				className="my-6 text-lg"
+				className="my-3 sm:text-base md:my-6 md:text-lg"
 				dangerouslySetInnerHTML={{ __html: excerpt }}
 			/>
 		</div>

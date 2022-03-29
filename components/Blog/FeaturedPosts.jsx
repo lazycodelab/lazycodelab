@@ -21,13 +21,13 @@ export default function FeaturedPosts({ posts }) {
 						slug={slug}
 					/>
 				)}
-				<div className="mt-2 flex items-center space-x-1 text-eerie-black">
+				<div className="mt-2 flex flex-wrap items-center space-x-1 text-eerie-black">
 					<Avatar author={author} />
 					<span className="text-indigo-400">&bull;</span>
 					<Date dateString={date} />
 				</div>
 
-				<h3 className="mt-6 mb-4 font-heading text-xl font-semibold text-dark-corn-blue md:text-4xl">
+				<h3 className="mt-6 mb-4 font-heading text-3xl font-semibold text-dark-corn-blue lg:text-4xl">
 					<Link href={`/blog/${slug}`}>
 						<a
 							className="hover:underline"
@@ -47,11 +47,11 @@ export default function FeaturedPosts({ posts }) {
 	}
 
 	return (
-		<section className="md:max-sw-8xl mx-auto w-full px-10 md:mt-28 lg:container">
-			<h3 className="font-playfair italic md:mb-16 md:text-6xl">
-				Featured posts
+		<section className="mx-auto mt-8 w-full max-w-7xl px-6 sm:mt-16 md:mt-28">
+			<h3 className="mb-8 font-playfair text-4xl font-medium italic md:mb-16 md:text-6xl">
+				Featured Posts
 			</h3>
-			<div className="grid gap-y-10 px-10 md:grid-cols-3 md:gap-x-10">
+			<div className="grid gap-y-5 md:grid-cols-3 md:gap-x-5 lg:gap-x-10 lg:px-10">
 				{posts.map(({ node }) => (
 					<FeaturedPostElm
 						key={node.slug}

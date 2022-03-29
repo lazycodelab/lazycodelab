@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import MoreStories from '../components/Blog/more-stories'
+import MoreStories from '../components/Blog/MoreStories'
 import Layout from '../components/Layout'
 import { getAllPostsForHome } from '../lib/api'
 import { SITE_NAME } from '../lib/constants'

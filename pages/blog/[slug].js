@@ -2,7 +2,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import ErrorPage from 'next/error'
 import PostBody from '../../components/Blog/post-body'
-import MoreStories from '../../components/Blog/more-stories'
+import MoreStories from '../../components/Blog/MoreStories'
 import PostHeader from '../../components/Blog/post-header'
 import SectionSeparator from '../../components/Blog/section-separator'
 import PostTitle from '../../components/Blog/post-title'
@@ -34,8 +34,8 @@ export default function Post({ post, posts, preview }) {
 							content={post.featuredImage?.node.sourceUrl}
 						/>
 					</Head>
-					<section className="mx-auto mt-20 flex max-w-5xl flex-col items-center justify-center px-6 md:mt-32">
-						<article>
+					<section className="max-w-7sxl mx-auto mt-16 px-6 text-eerie-black md:mt-32">
+						<article className="rounded-md bg-almond-white p-5 md:p-10">
 							<PostHeader
 								title={post.title}
 								coverImage={post.featuredImage?.node}

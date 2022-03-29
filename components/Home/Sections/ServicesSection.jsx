@@ -1,7 +1,6 @@
 import Programming from '../../../assets/images/Programming'
 import ProudCode from '../../../assets/images/ProudCode'
 import Services from '../../../assets/images/Services'
-import WPService from '../../../assets/images/WPService'
 
 const services = [
 	{
@@ -9,6 +8,7 @@ const services = [
 		content:
 			'We are a team of professional web designers and developers who offer website designing services for small to medium-sized businesses as well as for individuals like you.',
 		image: <Services className="w-full" />,
+		hasCTA: true,
 	},
 	{
 		title: 'WordPress Dev',
