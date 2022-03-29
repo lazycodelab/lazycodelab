@@ -37,7 +37,7 @@ export default function Nav() {
 					Get Started
 				</button>
 			</nav>
-			<nav className="mx-auto flex max-w-7xl flex-1 items-center justify-center space-x-10 text-center text-xl text-almond-white md:hidden">
+			<nav className="mx-auto flex max-w-7xl flex-1 items-center justify-between space-x-10 text-center text-xl text-almond-white md:hidden">
 				{/*<Link href="/blog">Blog</Link>*/}
 				<div className="w-14 max-w-xs flex-shrink-0 md:w-16">
 					<ActiveLink href="/">
@@ -48,16 +48,10 @@ export default function Nav() {
 				</div>
 				{/*<Link href="/services">Get Started</Link>*/}
 				{/* Show mobile nav */}
-				<button className="text-white" onClick={handleMobileMenu}>
-					MO
-				</button>
+				<ActiveLink href="/blog">
+					<a title="Blog">Blog</a>
+				</ActiveLink>
 			</nav>
-			<div
-				id="mobile-menu"
-				className="inset-0 mt-24 hidden h-screen bg-pink-400"
-			>
-				testnp
-			</div>
 		</>
 	)
 }
