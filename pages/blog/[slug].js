@@ -34,7 +34,7 @@ export default function Post({ post, posts, preview }) {
 							content={post.featuredImage?.node.sourceUrl}
 						/>
 					</Head>
-					<section className="max-w-7sxl mx-auto mt-16 px-6 text-eerie-black md:mt-32">
+					<section className="mx-auto mt-16 max-w-7xl px-6 text-eerie-black md:mt-32">
 						<article className="rounded-md bg-almond-white p-5 md:p-10">
 							<PostHeader
 								title={post.title}
