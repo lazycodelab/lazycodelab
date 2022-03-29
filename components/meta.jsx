@@ -66,6 +66,11 @@ export default function Meta() {
 					content={`A statically generated blog example using Next.js and ${SITE_NAME}.`}
 				/>
 				<meta property="og:image" content={HOME_OG_IMAGE_URL} />
+				<script
+					async
+					src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1210141871394947"
+					crossOrigin="anonymous"
+				></script>
 			</Head>
 			{/* Global site tag (gtag.js) - Google Analytics */}
 			<Script
